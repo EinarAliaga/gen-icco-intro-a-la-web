@@ -1,0 +1,53 @@
+body {
+    /*Especificidad: 1*/
+    background-color: rgb(218, 165, 32);
+    /*Los colores tenerlos todos en la misma forma ya sea rgb, etc*/
+    /*font-family: Arial*/
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    /*"serif = las tapitas al final de las letras como Times New Roman"*/
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.important-text{
+    /*Especificidad: 10*/
+    background-color: white;
+    color: goldenrod;
+    font-weight: 700;
+}
+
+#title{
+    /*Especificidad: 100*/
+    border: solid black 3px;
+    font-size: 32px;
+    width: fit-content;
+    /*"fid-content"= adaptate al contenido*/
+    border-radius: 1000000px;
+}
+
+#id .class p{
+    /*Especificidad: 100 + 10 + 1 = 111*/
+    border: solid;
+}
+/*Selectores combinados*/
+.dark-section button{
+    background-color: hotpink;
+}
+
+.light-section button{
+    background-color:black;
+}
+
+.mail {
+    border: dashed rgb(192, 145, 25) 3px;
+}
+
+a{
+    /*border: solid black 3px;*/
+}
+/*Tiene preferencia el ultimo estilo*/
+a {
+    /*Especificidad: 10000*/
+    /*border: dashed white 3px !important;*/
+    text-decoration: none;
+}
