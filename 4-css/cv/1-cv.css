@@ -25,6 +25,12 @@ body {
     border-radius: 1000000px;
 }
 
+img {
+    /*width: 350px;*/
+    height: 350px;
+    /*Declarar una de las dos width o height no las dos, porque la imagen se deforma*/
+}
+
 #id .class p{
     /*Especificidad: 100 + 10 + 1 = 111*/
     border: solid;
