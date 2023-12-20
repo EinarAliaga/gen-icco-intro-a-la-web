@@ -1,0 +1,20 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(103, 22, 178);/*name, rgb, hexadecimal, hsl*/
+    height: 10vh;/*px fijos y vh/vw se adaptan al tamaño de la pagina*/
+}
+
+.dashboard {
+    display: flex;
+    gap: 10px;/*"gap" = es el tamaño que hay en medio de los elementos*/
+    margin: 20px 0 0 0;
+
+}
+
+.article-element {
+    background-color: aquamarine;
+    padding: 12px;
+}
