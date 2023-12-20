@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    padding: 40px;
+    border: solid 4px mediumpurple;
+    background-color: hotpink;
+    width: 800px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    padding: 40px;
+    border: solid 4px rgb(255, 255, 255);
+    background-color: rgb(12, 33, 140);
+    color: white;
+    width: 20px;
+}

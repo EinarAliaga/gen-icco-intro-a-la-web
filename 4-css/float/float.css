@@ -1,0 +1,15 @@
+img {
+    border: solid 3px hotpink;
+}
+/*"float" = Es una propiedad que sirve para controlar como se alinean los elementos dentro de un contenedor. Al aplicar float a un elemento ese elemento se flota hacia la izquierda o derecha dentro de su contenedor, y los otros elementos se ajustan a su alrededor*/
+#bulbasaur {
+    width: 150px;
+    float: left;
+    margin-right: 16px;
+}
+
+#eevee {
+    width: 150px;
+    float: right;
+    margin-left: 16px;
+}
